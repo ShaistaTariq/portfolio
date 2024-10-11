@@ -9,7 +9,7 @@ export default function Navbar() {
           <div className='col-md-12'>
             <nav className='navbar navbar-expand-lg'>
               <div className="container-fluid">
-                <Link className="navbar-brand" to="/">My Portfolio</Link> {/* Change this to Link */}
+              <span className="navbar-brand">My Portfolio</span>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
