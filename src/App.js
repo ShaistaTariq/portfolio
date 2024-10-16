@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Header from './components/Header';
+import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
@@ -15,7 +15,7 @@ export default function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Header />} /> {/* Correct usage of Route */}
+          <Route path="/" element={<Home />} /> {/* Correct usage of Route */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />

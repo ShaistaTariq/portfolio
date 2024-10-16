@@ -6,7 +6,7 @@ import i2 from '../Pictures/i2.jpeg';
 import i3 from '../Pictures/i3.jpeg';
 
 import MVV from './MVV';
-export default function Header() {
+export default function Home() {
   return (
     <div>
         <Slider/>
